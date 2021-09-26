@@ -1,0 +1,282 @@
+#NH{
+	
+}
+@media only screen and (max-width: 1020px) {
+ .h_d3 img  {
+    display: none;
+  }
+}
+.h_d2{
+	margin-top:40px; 
+}
+.h_im{
+	margin-top: 20px;
+	margin-left: 45px;
+}
+.ham-menu{
+	width:35px;
+	height: 30px;
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.line{
+	width: 100%;
+	height: 4px;
+	background: black;
+	border-radius: 50px;
+	transition: all 0.5s;
+}
+.change .line-1 {
+	transform: rotateZ(-405deg) translate(-8px,7px);
+}
+.change .line-2{
+	opacity: 0;
+}
+.change .line-3{
+	transform: rotateZ(405deg) translate(-7px,-6px);
+}
+.nav-bar{
+	width: 300px;
+	height: 100%;
+	background: #9ACC32;
+	position: fixed;
+	top: 0;
+	right:-300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0% 0 0 20%;
+	transition: right .8s ;
+	z-index: 1;
+}
+.change{
+	right:0;
+}
+.nav-list{
+	/*text-align: right;*/
+}
+.nav-it{
+	list-style: none;
+	margin: 25px;
+}
+.nav-link{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 3px;
+	position: relative;
+}
+.nav-link::before,
+.nav-link::after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	color: #fff;
+	position: absolute;
+}
+.h_d2{
+	/*margin-left: 5%;*/
+	margin-top: -11%;
+}
+.h_h4{
+    width: fit-content;
+    border: 2px dotted;
+    padding: 5px;
+    border-radius: 35px;
+}
+.h_h1{
+	/*width: fit-content;*/
+	color:#00A6E2;
+}
+.h_sp{
+	color:#9ACC32;
+	font-weight: 350;	
+}
+.ov{
+    overflow: hidden;	
+}
+.h_d3 img{
+	width: 140%;
+    margin-top: -163px;
+
+}
+.h_dp{
+	display: flex;
+}
+.h_dp .ex{
+	background-color: #9ACC32;
+	border: none;
+}
+.card:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+#card{
+	margin-top: 7%;
+	margin-bottom: 5%;
+	background-color: #FFFFFF;
+}
+#card .container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#card .row{
+	width: fit-content;
+}
+.cen_1{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#card .card{
+	width: 250px;
+	padding: 30px;
+	border-radius: 20px !important;
+}
+#card .card img{
+	width: 30%;
+}
+#card .card hr{
+	width:35px;
+}
+#card .C_cb{
+	text-decoration: underline;
+	margin-top: 20px;
+	color:#9ACC32;
+	text-align: center;
+}
+.C_cb span{
+	color: grey;
+}
+#welcome{
+	background-color: #F5F6FA;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+.col .f_m{
+	margin-bottom: 2%;
+	display: flex;
+}
+.four_tiles{
+	background-color: #fff;
+	margin-right: 20px;
+	border: 1px dotted black;
+	padding: 10px;
+	border-radius: 25px;
+}
+.ft_h{
+	color:#00A6E2;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+.cen{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.s_2nd{
+	display: flex;
+}
+.s_2nd span{
+	font-weight: bold;
+}
+.card-body h5{
+	color: #00A6E2;
+}
+.touch{
+	width: 16rem;
+	height: fit-content;
+	border-radius:12px !important;
+}
+#service .card i{
+	color:#9ACC32;
+}
+#service .card:hover h5{
+	color: #9ACC32;
+}
+#service .card:hover i{
+	padding: 7px;
+	border-radius: 40px;
+	background-color:#9ACC32;
+	color: #fff;
+}
+#step{
+	background: #9ACC32;
+	padding-bottom: 50px;
+}
+#step h1{
+	text-align:center;
+	color: #fff;
+	padding:50px;
+}
+#step .container{
+	margin:0px auto;
+}
+#step p{
+	color: #fff;
+}
+#step .container img{
+	width: 160px;
+}
+#step ul img{
+	text-align: center;
+}
+#step ul li{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+}
+#qa{
+	background: #F5F6FA;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#qa button{
+	background-color: #9ACC32;
+	border:none;
+}
+.image-area img{
+	width:80px;
+}
+#testimonial{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#testimonial i:hover{
+	color: #9ACC32;
+}
+#footer {
+	padding-bottom: 40px;
+	background-color: #515B68;
+}
+#footer .container{
+	padding-top: 60px;
+}
+#footer h5{
+	color: #9ACC32;
+}
+#footer p{
+	color: #fff;
+}
+#footer a{
+	text-decoration:none;
+	color: #fff;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+#footer .container{
+	padding-right: 80px;
+	padding-left: 80px;
+}
+footer{
+	margin-top: 50px;
+}
+
+
+
