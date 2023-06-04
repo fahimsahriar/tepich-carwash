@@ -1,4 +1,5 @@
 # tepich-carwash
+live preview: https://fahimsahriar.github.io/tepich-carwash/
 Tepich car-wash is car washing company who was launching their online service. The existance of their bussiness was presented by the full functional service providing website.
 This repository basiclly is the frontend design of the website using various technology such as HTML5, CSS3, Bootstrap 4, JavaScript and jQuery.
 
